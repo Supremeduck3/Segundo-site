@@ -16,16 +16,16 @@ body {
     margin-top: 20px;
 }
 header {
-    background-color: rgba(248, 15, 15, 0.822);
+    background-color: rgba(235, 235, 235, 0.822);
     width: 100%;
     height: 100px;
     text-align: center;
-    color: aliceblue;
+    color: rgb(16, 17, 17);
 }
 /*sobremim*/
 about-section {
     display: block;
-    background-color: rgba(245, 121, 5, 0.712);
+    background-color: rgba(139, 139, 139, 0.712);
     width: 80%;
     margin: 0 auto;
     padding: 40px;
@@ -34,7 +34,7 @@ about-section {
 }
 
 main {
-    background-color: rgba(248, 178, 99, 0.623);
+    background-color: rgba(136, 136, 136, 0.623);
     flex: 1;
     width: 100%;
     padding: 48px 38px;
