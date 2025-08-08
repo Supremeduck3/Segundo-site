@@ -41,14 +41,14 @@ main {
 }
 .sobremim {
     font-size: 30px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     width: 80%;
     text-align: center;
     margin: 0 auto;
 }
 #titulo{
     font-size: 30px;
-    color: rgb(228, 241, 252);
+    color: rgb(5, 5, 5);
     width: 80%;
     text-align: center;
     margin: 0 auto;
@@ -63,7 +63,7 @@ main {
 }
 #hobby{
     font-size: 30px;
-    color: rgb(228, 241, 252);
+    color: rgb(7, 7, 7);
     width: 80%;
     text-align: center;
     margin: 0 auto;
@@ -91,7 +91,7 @@ li{
     min-width: 200px;
     padding: 12px;
     font-size: 16px;
-    color: rgba(31, 25, 25, 0.808);
+    color: rgba(3, 3, 3, 0.808);
     font-size: medium;
 
 }
