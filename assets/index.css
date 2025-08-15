@@ -131,3 +131,14 @@ contact a:hover {
     color: rgb(0, 0, 0);
     transform: translateY(-2px);
 }
+footer {
+    background-color: rgb(122, 122, 122);
+    text-align: center;
+    color: rgb(131, 131, 131);
+    padding: 2rem;
+    width: 100%;
+}
+footer p {
+    font-size: 1rem;
+    color: rgb(209, 209, 209);
+}
