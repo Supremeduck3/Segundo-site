@@ -100,12 +100,34 @@ li:hover{
     transform: translateX(5px);
     transition: all 0.3s ease;
 }
-.contact{
+contact{
     display: block;
-    background-color: aqua;
+    background-color: rgb(173, 173, 173);
     width: 80%;
     margin: 0 auto;
     padding: 40px;
     border-radius: 12px;
     margin-top: 40px;
+}
+contact h1{
+    margin-bottom: 8px;
+    text-align: center;
+}
+contact p{
+    text-align: center;
+    font-size: 22px;
+}
+contact a {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border:2px solid color rgb(139, 139, 139);
+    border-radius: 25px;
+    display: inline-block;
+}
+contact a:hover {
+    background-color: rgb(95, 95, 95);
+    color: rgb(0, 0, 0);
+    transform: translateY(-2px);
 }
