@@ -62,28 +62,33 @@ about-section2 {
     margin-top: 48px;
     color: #1a1a1a;
 }
-ul{
+ul {
     list-style: none;
-    padding: 10px 10px;
+    padding: 10px;
     display: flex;
-    gap: 48px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     text-align: center;
     background-color: #8ab3cf;
     border-radius: 10px;
 }
-li{
-    display: block;
+li {
+    flex: 0 1 200px;
+    max-width: 220px;
     border-left: 4px solid #4180ab;
-    min-width: 200px;
-    padding: 12px;
+    padding: 20px;
     font-size: medium;
     color: #1a1a1a;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    background-color: #bdd1de;
+
 }
-li:hover{
+li:hover {
     background-color: #4180ab;
     color: #ffffff;
-    transform: translateX(5px);
-    transition: all 0.3s ease;
+    transform: translateY(-3px);
 }
 contact{
     display: block;
@@ -129,4 +134,56 @@ footer p {
     font-size: 1rem;
     color: #000000;
 }
+/*Lista hobies*/
+a{
+    color: #000000;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    transform: translateY(-3px);
+}
 
+
+
+
+
+
+
+
+
+
+
+
+/*fim*/
+@media (max-width: 768px) {
+    about-section,
+    about-section2,
+    contact {
+        width: 95%;
+        padding: 20px;
+    }
+    .sobremim, #titulo,
+    .hobbit, #hobby {
+        font-size: 24px;
+    }
+}
+@media (max-width: 600px) {
+    ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    li {
+        max-width: 100%;
+    }
+    about-section,
+    about-section2,
+    contact {
+        width: 100%;
+        padding: 15px;
+    }
+    .sobremim, #titulo,
+    .hobbit, #hobby {
+        font-size: 20px;
+    }
+}
