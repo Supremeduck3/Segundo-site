@@ -4,78 +4,63 @@
     padding:0 ;
     box-sizing: border-box;
 }
-/*config geral*/
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     font-family: "Libetinus-serif";
+    background-color: #e4ebf0;
+    color: #1a1a1a;
 }
-/*sobre mim*/
 #Cabeçalho{
     margin-top: 20px;
 }
 header {
-    background-color: rgba(235, 235, 235, 0.822);
+    background-color: #4180ab;
     width: 100%;
     height: 100px;
     text-align: center;
-    color: rgb(16, 17, 17);
+    color: #ffffff;
 }
-/*sobremim*/
 about-section {
     display: block;
-    background-color: rgba(139, 139, 139, 0.712);
+    background-color: #8ab3cf;
     width: 80%;
     margin: 0 auto;
     padding: 40px;
     border-radius: 10px;
     margin-bottom: 48px;
+    color: #1a1a1a;
 }
-
 main {
-    background-color: rgba(136, 136, 136, 0.623);
+    background-color: #e4ebf0;
     flex: 1;
     width: 100%;
     padding: 48px 38px;
 }
-.sobremim {
+.sobremim, #titulo {
     font-size: 30px;
-    color: rgb(0, 0, 0);
+    color: #1a1a1a;
     width: 80%;
     text-align: center;
     margin: 0 auto;
 }
-#titulo{
+.hobbit, #hobby {
     font-size: 30px;
-    color: rgb(5, 5, 5);
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-}
-/*segunda caixa*/
-.hobbit {
-    font-size: 30px;
-    color: rgb(228, 241, 252);
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-}
-#hobby{
-    font-size: 30px;
-    color: rgb(7, 7, 7);
+    color: #1a1a1a;
     width: 80%;
     text-align: center;
     margin: 0 auto;
 }
 about-section2 {
     display: block;
-    background-color: rgba(136, 136, 136, 0.63);
+    background-color: #bdd1de;
     width: 80%;
     margin: 0 auto;
     padding: 30px;
     border-radius: 10px;
     margin-top: 48px;
+    color: #1a1a1a;
 }
 ul{
     list-style: none;
@@ -83,62 +68,65 @@ ul{
     display: flex;
     gap: 48px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.712);
+    background-color: #8ab3cf;
     border-radius: 10px;
 }
 li{
-    border-left: 4x solid rgb(248, 248, 248);
+    display: block;
+    border-left: 4px solid #4180ab;
     min-width: 200px;
     padding: 12px;
-    font-size: 16px;
-    color: rgba(3, 3, 3, 0.808);
     font-size: medium;
-
+    color: #1a1a1a;
 }
 li:hover{
-    background-color: rgba(12, 12, 12, 0.048);
+    background-color: #4180ab;
+    color: #ffffff;
     transform: translateX(5px);
     transition: all 0.3s ease;
 }
 contact{
     display: block;
-    background-color: rgb(173, 173, 173);
+    background-color: #8ab3cf;
     width: 80%;
     margin: 0 auto;
     padding: 40px;
     border-radius: 12px;
     margin-top: 40px;
+    color: #1a1a1a;
 }
 contact h1{
     margin-bottom: 8px;
     text-align: center;
+    color: #1a1a1a;
 }
 contact p{
     text-align: center;
     font-size: 22px;
+    color: #1a1a1a;
 }
 contact a {
-    color: rgb(10, 10, 10);
+    color: #1a1a1a;
     text-decoration: none;
     font-weight: bold;
     padding: 0.5rem 1rem;
-    border:2px solid color rgb(139, 139, 139);
+    border: 2px solid #bdd1de;
     border-radius: 25px;
     display: inline-block;
 }
 contact a:hover {
-    background-color: rgb(95, 95, 95);
-    color: rgb(0, 0, 0);
+    background-color: #bdd1de;
+    color: #1a1a1a;
     transform: translateY(-2px);
 }
 footer {
-    background-color: rgb(122, 122, 122);
+    background-color: #4180ab;
     text-align: center;
-    color: rgb(131, 131, 131);
     padding: 2rem;
     width: 100%;
 }
 footer p {
     font-size: 1rem;
-    color: rgb(209, 209, 209);
+    color: #ffffff;
 }
+
