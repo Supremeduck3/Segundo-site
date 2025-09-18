@@ -52,7 +52,7 @@ main {
 
 .linguagens-section {
     width: 80%;
-    margin: 50px auto;
+    margin: 60px auto;
     text-align: center;
 }
 
@@ -72,7 +72,7 @@ main {
 .linguagem-card {
     background-color: var(--paynes-gray);
     border-radius: 15px;
-    width: 600px; /* Largura do quadro aumentada para o texto ficar mais largo */
+    width: 800px; /* Largura do quadro aumentada para o texto ficar mais largo */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     color: var(--mint-green);
@@ -85,7 +85,7 @@ main {
 }
 
 .descricao-linguagem {
-    padding: 30px;
+    padding: 50px;
 }
 
 .descricao-linguagem h3 {
@@ -127,16 +127,13 @@ footer {
 
 /* Cores dos textos adicionados */
 #title {
-    color: rgb(251, 255, 127);
+    color: rgb(240, 240, 240);
 }
 
 #text {
     color: rgb(216, 234, 243);
 }
 
-#texto {
-    color: rgb(226, 215, 2);
-}
 
 #java {
     color: white;
