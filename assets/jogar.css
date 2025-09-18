@@ -3,9 +3,9 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 :root {
-    --bittersweet: #f05d5eff;
-    --caribbean-current: #0f7173ff;
-    --antiflash-white: #e7ecefff;
+    --bittersweet: rgb(9, 128, 219);
+    --caribbean-current: rgb(13, 70, 185);
+    --antiflash-white: rgb(239, 240, 231);
     --raisin-black: #272932ff;
     --buff: #d8a47fff;
 }
@@ -63,7 +63,7 @@ main {
 .game-card {
     background: linear-gradient(145deg, var(--caribbean-current), var(--raisin-black));
     border-radius: 15px;
-    width: 300px; /* AUMENTADO */
+    width: 300px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     color: var(--antiflash-white);
@@ -76,13 +76,17 @@ main {
 }
 
 .game-image {
-    height: 240px; /* AUMENTADO */
+    height: 240px;
     background-color: var(--buff);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
-    color: var(--antiflash-white);
+}
+
+.game-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .game-info {
@@ -91,6 +95,11 @@ main {
 
 .game-info h3 {
     margin-bottom: 10px;
+    color: var(--antiflash-white);
+}
+
+.game-info a {
+    text-decoration: none;
     color: var(--antiflash-white);
 }
 
@@ -125,4 +134,19 @@ footer {
     padding:20px;
     font-size:1rem;
     box-shadow:0 -4px 8px rgba(0,0,0,0.3);
+}
+#title{
+    color: azure;
+}
+#reddead{
+    color: rgb(240, 240, 240);
+}
+#bf1{
+    color: rgb(231, 231, 231);
+}
+#cod3{
+    color: rgb(255, 255, 255);
+}
+#forza{
+    color: rgb(236, 235, 233);
 }
